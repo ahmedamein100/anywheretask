@@ -1,0 +1,32 @@
+.dashboard-container {
+  display: flex !important;
+  width: 100vw !important;
+  background-color: rgb(243, 243, 243) !important;
+}
+
+.sidebar-container {
+  background-color: #f4f4f4 !important;
+}
+
+.main-container {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+}
+
+.header-container {
+  padding: 20px !important;
+  background-color: #fff !important;
+  width: 100% !important;
+  z-index: 100 !important;
+  box-sizing: border-box !important;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+.body-container {
+  background-color: rgb(243, 243, 243) !important;
+  flex: 1 !important;
+  overflow-y: auto !important;
+}

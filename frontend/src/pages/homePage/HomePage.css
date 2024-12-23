@@ -1,0 +1,32 @@
+.homepage-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.homepage-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.homepage-buttons .MuiButton-root {
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .homepage-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .homepage-buttons .MuiButton-root {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  }
+}

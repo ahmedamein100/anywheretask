@@ -1,0 +1,14 @@
+.dashboard-body {
+  background-color: rgb(243, 243, 243) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 25px !important;
+}
+.announcements-deadlines {
+  display: flex !important;
+}
+@media (max-width: 768px) {
+  .announcements-deadlines {
+    flex-direction: column;
+  }
+}
