@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@mui/material";
-import "./HomePage.css"; // Import the CSS file
+import "./HomePage.css";
 
 function HomePage() {
   const navigate = useNavigate();

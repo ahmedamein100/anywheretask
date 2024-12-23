@@ -1,7 +1,6 @@
-// src/components/TopCard.js
 import React from "react";
 import { Card, Button } from "@mui/material";
-import "./TopCard.css"; // Import the specific CSS file for this component
+import "./TopCard.css";
 import ExamPng from "../../assets/pngs/studypng.png";
 
 const TopCard = () => {
